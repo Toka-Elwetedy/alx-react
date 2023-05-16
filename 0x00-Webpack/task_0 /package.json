@@ -5,11 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development"
+    "dev": "webpack --mode development",
+    "build": "webpack"
   },
-  "scripts": {
-  "build": "webpack"
-}
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,3 +19,4 @@
     "jquery": "^3.6.0"
   }
 }
+
